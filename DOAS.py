@@ -92,22 +92,22 @@ class Ui_MainWindow(object):
         self.Btn2_2.setText(_translate("MainWindow", "2_2"))
 
     def display1_1(self):
-        self.pic1.setPixmap(QtGui.QPixmap('C:\\Users\\tonylizj\\Documents\\GitHub\\doas_media\\test1_1.bmp'))
+        self.pic1.setPixmap(QtGui.QPixmap('test1_1.bmp'))
         self.Btn1_1.deleteLater()
         self.Btn1_2.deleteLater()
 
     def display1_2(self):
-        self.pic1.setPixmap(QtGui.QPixmap('C:\\Users\\tonylizj\\Documents\\GitHub\\doas_media\\test1_2.bmp'))
+        self.pic1.setPixmap(QtGui.QPixmap('test1_2.bmp'))
         self.Btn1_1.deleteLater()
         self.Btn1_2.deleteLater()
 
     def display2_1(self):
-        self.pic2.setPixmap(QtGui.QPixmap('C:\\Users\\tonylizj\\Documents\\GitHub\\doas_media\\test2_1.bmp'))
+        self.pic2.setPixmap(QtGui.QPixmap('test2_1.bmp'))
         self.Btn2_1.deleteLater()
         self.Btn2_2.deleteLater()
 
     def display2_2(self):
-        self.pic2.setPixmap(QtGui.QPixmap('C:\\Users\\tonylizj\\Documents\\GitHub\\doas_media\\test2_2.bmp'))
+        self.pic2.setPixmap(QtGui.QPixmap('test2_2.bmp'))
         self.Btn2_1.deleteLater()
         self.Btn2_2.deleteLater()
 
