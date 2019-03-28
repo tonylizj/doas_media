@@ -13,16 +13,26 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/doas_media$AdvancedUi.coverage" NAME="AdvancedUi Coverage Results" MODIFIED="1553747188497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/doas_media$DOAStest1.coverage" NAME="DOAStest1 Coverage Results" MODIFIED="1553780476417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/doas_media$DOAStest.coverage" NAME="DOAStest Coverage Results" MODIFIED="1553751880842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/doas_media$DOAS.coverage" NAME="DOAS Coverage Results" MODIFIED="1553754015406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DOAS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3379">
-              <caret line="109" column="47" selection-start-line="109" selection-start-column="47" selection-end-line="109" selection-end-column="47" />
+            <state relative-caret-position="738">
+              <caret line="111" column="33" selection-start-line="111" selection-start-column="33" selection-end-line="111" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DOAStest1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="331">
+              <caret line="221" column="33" lean-forward="true" selection-start-line="221" selection-start-column="33" selection-end-line="221" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -72,14 +82,15 @@
         <option value="$PROJECT_DIR$/DOAStest.py" />
         <option value="C:/ProgramData/Anaconda3/Lib/site-packages/PyInstaller/utils/hooks/qt.py" />
         <option value="$PROJECT_DIR$/DOAS.py" />
+        <option value="$PROJECT_DIR$/DOAStest1.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1887" />
-    <option name="y" value="-1" />
-    <option name="width" value="1497" />
-    <option name="height" value="848" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -118,7 +129,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.DOAS">
+  <component name="RunManager" selected="Python.DOAStest1">
     <configuration name="AdvancedUi" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="doas_media" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -185,8 +196,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="DOAStest1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="doas_media" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DOAStest1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.DOAStest1" />
         <item itemvalue="Python.DOAS" />
         <item itemvalue="Python.DOAStest" />
         <item itemvalue="Python.AdvancedUi" />
@@ -206,21 +240,24 @@
       <workItem from="1553745999650" duration="6073000" />
       <workItem from="1553753843469" duration="9000" />
       <workItem from="1553753996831" duration="61000" />
+      <workItem from="1553776792945" duration="105000" />
+      <workItem from="1553779219000" duration="1853000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6143000" />
+    <option name="totallyTimeSpent" value="8101000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-1" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3296582" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3296582" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -251,13 +288,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DOAS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3379">
-          <caret line="109" column="47" selection-start-line="109" selection-start-column="47" selection-end-line="109" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HelloWorld.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="62">
@@ -276,6 +306,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="62">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DOAS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="111" column="33" selection-start-line="111" selection-start-column="33" selection-end-line="111" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DOAStest1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="221" column="33" lean-forward="true" selection-start-line="221" selection-start-column="33" selection-end-line="221" selection-end-column="33" />
         </state>
       </provider>
     </entry>

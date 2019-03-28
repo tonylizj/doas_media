@@ -1,0 +1,263 @@
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        MainWindow.setObjectName("MainWindow")
+        MainWindow.resize(1890, 1050)
+        MainWindow.setMinimumSize(QtCore.QSize(0, 0))
+        MainWindow.setMouseTracking(False)
+        self.centralwidget = QtWidgets.QWidget(MainWindow)
+        self.centralwidget.setObjectName("centralwidget")
+        self.pic1 = QtWidgets.QLabel(self.centralwidget)
+        self.pic1.setGeometry(QtCore.QRect(0, 0, 630, 350))
+        self.pic1.setFrameShape(QtWidgets.QFrame.Box)
+        self.pic1.setText("")
+        self.pic1.setObjectName("pic1")
+        self.pic2 = QtWidgets.QLabel(self.centralwidget)
+        self.pic2.setGeometry(QtCore.QRect(630, 0, 630, 350))
+        self.pic2.setFrameShape(QtWidgets.QFrame.Box)
+        self.pic2.setText("")
+        self.pic2.setObjectName("pic2")
+        self.pic3 = QtWidgets.QLabel(self.centralwidget)
+        self.pic3.setGeometry(QtCore.QRect(1260, 0, 630, 350))
+        self.pic3.setFrameShape(QtWidgets.QFrame.Box)
+        self.pic3.setText("")
+        self.pic3.setObjectName("pic3")
+        self.pic4 = QtWidgets.QLabel(self.centralwidget)
+        self.pic4.setGeometry(QtCore.QRect(0, 350, 630, 350))
+        self.pic4.setFrameShape(QtWidgets.QFrame.Box)
+        self.pic4.setText("")
+        self.pic4.setObjectName("pic4")
+        self.pic5 = QtWidgets.QLabel(self.centralwidget)
+        self.pic5.setGeometry(QtCore.QRect(630, 350, 630, 350))
+        self.pic5.setFrameShape(QtWidgets.QFrame.Box)
+        self.pic5.setText("")
+        self.pic5.setObjectName("pic5")
+        self.pic6 = QtWidgets.QLabel(self.centralwidget)
+        self.pic6.setGeometry(QtCore.QRect(1260, 350, 630, 350))
+        self.pic6.setFrameShape(QtWidgets.QFrame.Box)
+        self.pic6.setText("")
+        self.pic6.setObjectName("pic6")
+        self.pic7 = QtWidgets.QLabel(self.centralwidget)
+        self.pic7.setGeometry(QtCore.QRect(0, 700, 630, 350))
+        self.pic7.setFrameShape(QtWidgets.QFrame.Box)
+        self.pic7.setText("")
+        self.pic7.setObjectName("pic7")
+        self.pic8 = QtWidgets.QLabel(self.centralwidget)
+        self.pic8.setGeometry(QtCore.QRect(630, 700, 630, 350))
+        self.pic8.setFrameShape(QtWidgets.QFrame.Box)
+        self.pic8.setText("")
+        self.pic8.setObjectName("pic8")
+        self.pic9 = QtWidgets.QLabel(self.centralwidget)
+        self.pic9.setGeometry(QtCore.QRect(1260, 700, 630, 350))
+        self.pic9.setFrameShape(QtWidgets.QFrame.Box)
+        self.pic9.setText("")
+        self.pic9.setObjectName("pic9")
+        self.Btn1_1 = QtWidgets.QPushButton(self.centralwidget)
+        self.Btn1_1.setGeometry(QtCore.QRect(0, 0, 630, 175))
+        self.Btn1_1.setObjectName("Btn1_1")
+        self.Btn1_2 = QtWidgets.QPushButton(self.centralwidget)
+        self.Btn1_2.setGeometry(QtCore.QRect(0, 175, 630, 175))
+        self.Btn1_2.setObjectName("Btn1_2")
+        self.Btn2_1 = QtWidgets.QPushButton(self.centralwidget)
+        self.Btn2_1.setGeometry(QtCore.QRect(630, 0, 630, 175))
+        self.Btn2_1.setObjectName("Btn2_1")
+        self.Btn2_2 = QtWidgets.QPushButton(self.centralwidget)
+        self.Btn2_2.setGeometry(QtCore.QRect(630, 175, 630, 175))
+        self.Btn2_2.setObjectName("Btn2_2")
+        self.Btn3_1 = QtWidgets.QPushButton(self.centralwidget)
+        self.Btn3_1.setGeometry(QtCore.QRect(1260, 0, 630, 175))
+        self.Btn3_1.setObjectName("Btn3_1")
+        self.Btn3_2 = QtWidgets.QPushButton(self.centralwidget)
+        self.Btn3_2.setGeometry(QtCore.QRect(1260, 175, 630, 175))
+        self.Btn3_2.setObjectName("Btn3_2")
+        self.Btn4_1 = QtWidgets.QPushButton(self.centralwidget)
+        self.Btn4_1.setGeometry(QtCore.QRect(0, 350, 630, 175))
+        self.Btn4_1.setObjectName("Btn4_1")
+        self.Btn4_2 = QtWidgets.QPushButton(self.centralwidget)
+        self.Btn4_2.setGeometry(QtCore.QRect(0, 525, 630, 175))
+        self.Btn4_2.setObjectName("Btn4_2")
+        self.Btn5_1 = QtWidgets.QPushButton(self.centralwidget)
+        self.Btn5_1.setGeometry(QtCore.QRect(630, 350, 630, 175))
+        self.Btn5_1.setObjectName("Btn5_1")
+        self.Btn5_2 = QtWidgets.QPushButton(self.centralwidget)
+        self.Btn5_2.setGeometry(QtCore.QRect(630, 525, 630, 175))
+        self.Btn5_2.setObjectName("Btn5_2")
+        self.Btn6_1 = QtWidgets.QPushButton(self.centralwidget)
+        self.Btn6_1.setGeometry(QtCore.QRect(1260, 350, 630, 175))
+        self.Btn6_1.setObjectName("Btn6_1")
+        self.Btn6_2 = QtWidgets.QPushButton(self.centralwidget)
+        self.Btn6_2.setGeometry(QtCore.QRect(1260, 525, 630, 175))
+        self.Btn6_2.setObjectName("Btn6_2")
+        self.Btn7_1 = QtWidgets.QPushButton(self.centralwidget)
+        self.Btn7_1.setGeometry(QtCore.QRect(0, 700, 630, 175))
+        self.Btn7_1.setObjectName("Btn7_1")
+        self.Btn7_2 = QtWidgets.QPushButton(self.centralwidget)
+        self.Btn7_2.setGeometry(QtCore.QRect(0, 875, 630, 175))
+        self.Btn7_2.setObjectName("Btn7_2")
+        self.Btn8_1 = QtWidgets.QPushButton(self.centralwidget)
+        self.Btn8_1.setGeometry(QtCore.QRect(630, 700, 630, 175))
+        self.Btn8_1.setObjectName("Btn8_1")
+        self.Btn8_2 = QtWidgets.QPushButton(self.centralwidget)
+        self.Btn8_2.setGeometry(QtCore.QRect(630, 875, 630, 175))
+        self.Btn8_2.setObjectName("Btn8_2")
+        self.Btn9_1 = QtWidgets.QPushButton(self.centralwidget)
+        self.Btn9_1.setGeometry(QtCore.QRect(1260, 700, 630, 175))
+        self.Btn9_1.setObjectName("Btn9_1")
+        self.Btn9_2 = QtWidgets.QPushButton(self.centralwidget)
+        self.Btn9_2.setGeometry(QtCore.QRect(1260, 875, 630, 175))
+        self.Btn9_2.setObjectName("Btn9_2")
+        MainWindow.setCentralWidget(self.centralwidget)
+        self.menubar = QtWidgets.QMenuBar(MainWindow)
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 1890, 21))
+        self.menubar.setObjectName("menubar")
+        MainWindow.setMenuBar(self.menubar)
+        self.statusbar = QtWidgets.QStatusBar(MainWindow)
+        self.statusbar.setObjectName("statusbar")
+        MainWindow.setStatusBar(self.statusbar)
+
+        self.retranslateUi(MainWindow)
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
+        self.Btn1_1.clicked.connect(self.display1_1)
+        self.Btn1_2.clicked.connect(self.display1_2)
+        self.Btn2_1.clicked.connect(self.display2_1)
+        self.Btn2_2.clicked.connect(self.display2_2)
+        self.Btn3_1.clicked.connect(self.display3_1)
+        self.Btn3_2.clicked.connect(self.display3_2)
+        self.Btn4_1.clicked.connect(self.display4_1)
+        self.Btn4_2.clicked.connect(self.display4_2)
+        self.Btn5_1.clicked.connect(self.display5_1)
+        self.Btn5_2.clicked.connect(self.display5_2)
+        self.Btn6_1.clicked.connect(self.display6_1)
+        self.Btn6_2.clicked.connect(self.display6_2)
+        self.Btn7_1.clicked.connect(self.display7_1)
+        self.Btn7_2.clicked.connect(self.display7_2)
+        self.Btn8_1.clicked.connect(self.display8_1)
+        self.Btn8_2.clicked.connect(self.display8_2)
+        self.Btn9_1.clicked.connect(self.display9_1)
+        self.Btn9_2.clicked.connect(self.display9_2)
+
+    def retranslateUi(self, MainWindow):
+        _translate = QtCore.QCoreApplication.translate
+        MainWindow.setWindowTitle(_translate("MainWindow", "DOAS PLACEHOLDER TITLE"))
+        self.Btn1_1.setText(_translate("MainWindow", "1_1"))
+        self.Btn1_2.setText(_translate("MainWindow", "1_2"))
+        self.Btn2_1.setText(_translate("MainWindow", "2_1"))
+        self.Btn2_2.setText(_translate("MainWindow", "2_2"))
+        self.Btn3_1.setText(_translate("MainWindow", "3_1"))
+        self.Btn3_2.setText(_translate("MainWindow", "3_2"))
+        self.Btn4_1.setText(_translate("MainWindow", "4_1"))
+        self.Btn4_2.setText(_translate("MainWindow", "4_2"))
+        self.Btn5_1.setText(_translate("MainWindow", "5_1"))
+        self.Btn5_2.setText(_translate("MainWindow", "5_2"))
+        self.Btn6_1.setText(_translate("MainWindow", "6_1"))
+        self.Btn6_2.setText(_translate("MainWindow", "6_2"))
+        self.Btn7_1.setText(_translate("MainWindow", "7_1"))
+        self.Btn7_2.setText(_translate("MainWindow", "7_2"))
+        self.Btn8_1.setText(_translate("MainWindow", "8_1"))
+        self.Btn8_2.setText(_translate("MainWindow", "8_2"))
+        self.Btn9_1.setText(_translate("MainWindow", "9_1"))
+        self.Btn9_2.setText(_translate("MainWindow", "9_2"))
+
+    def display1_1(self):
+        self.pic1.setPixmap(QtGui.QPixmap('test1_1.bmp'))
+        self.Btn1_1.deleteLater()
+        self.Btn1_2.deleteLater()
+
+    def display1_2(self):
+        self.pic1.setPixmap(QtGui.QPixmap('test1_2.bmp'))
+        self.Btn1_1.deleteLater()
+        self.Btn1_2.deleteLater()
+
+    def display2_1(self):
+        self.pic2.setPixmap(QtGui.QPixmap('test2_1.bmp'))
+        self.Btn2_1.deleteLater()
+        self.Btn2_2.deleteLater()
+
+    def display2_2(self):
+        self.pic2.setPixmap(QtGui.QPixmap('test2_2.bmp'))
+        self.Btn2_1.deleteLater()
+        self.Btn2_2.deleteLater()
+
+    def display3_1(self):
+        self.pic3.setPixmap(QtGui.QPixmap('test3_1.bmp'))
+        self.Btn3_1.deleteLater()
+        self.Btn3_2.deleteLater()
+
+    def display3_2(self):
+        self.pic3.setPixmap(QtGui.QPixmap('test3_2.bmp'))
+        self.Btn3_1.deleteLater()
+        self.Btn3_2.deleteLater()
+
+    def display4_1(self):
+        self.pic4.setPixmap(QtGui.QPixmap('test4_1.bmp'))
+        self.Btn4_1.deleteLater()
+        self.Btn4_2.deleteLater()
+
+    def display4_2(self):
+        self.pic4.setPixmap(QtGui.QPixmap('test4_2.bmp'))
+        self.Btn4_1.deleteLater()
+        self.Btn4_2.deleteLater()
+
+    def display5_1(self):
+        self.pic5.setPixmap(QtGui.QPixmap('test5_1.bmp'))
+        self.Btn5_1.deleteLater()
+        self.Btn5_2.deleteLater()
+
+    def display5_2(self):
+        self.pic5.setPixmap(QtGui.QPixmap('test5_2.bmp'))
+        self.Btn5_1.deleteLater()
+        self.Btn5_2.deleteLater()
+
+    def display6_1(self):
+        self.pic6.setPixmap(QtGui.QPixmap('test6_1.bmp'))
+        self.Btn6_1.deleteLater()
+        self.Btn6_2.deleteLater()
+
+    def display6_2(self):
+        self.pic6.setPixmap(QtGui.QPixmap('test6_2.bmp'))
+        self.Btn6_1.deleteLater()
+        self.Btn6_2.deleteLater()
+
+    def display7_1(self):
+        self.pic7.setPixmap(QtGui.QPixmap('test7_1.bmp'))
+        self.Btn7_1.deleteLater()
+        self.Btn7_2.deleteLater()
+
+    def display7_2(self):
+        self.pic7.setPixmap(QtGui.QPixmap('test7_2.bmp'))
+        self.Btn7_1.deleteLater()
+        self.Btn7_2.deleteLater()
+
+    def display8_1(self):
+        self.pic8.setPixmap(QtGui.QPixmap('test8_1.bmp'))
+        self.Btn8_1.deleteLater()
+        self.Btn8_2.deleteLater()
+
+    def display8_2(self):
+        self.pic8.setPixmap(QtGui.QPixmap('test8_2.bmp'))
+        self.Btn8_1.deleteLater()
+        self.Btn8_2.deleteLater()
+
+    def display9_1(self):
+        self.pic9.setPixmap(QtGui.QPixmap('test9_1.bmp'))
+        self.Btn9_1.deleteLater()
+        self.Btn9_2.deleteLater()
+
+    def display9_2(self):
+        self.pic9.setPixmap(QtGui.QPixmap('test9_2.bmp'))
+        self.Btn9_1.deleteLater()
+        self.Btn9_2.deleteLater()
+
+
+if __name__ == "__main__":
+    import sys
+    app = QtWidgets.QApplication(sys.argv)
+    MainWindow = QtWidgets.QMainWindow()
+    ui = Ui_MainWindow()
+    ui.setupUi(MainWindow)
+    MainWindow.show()
+    sys.exit(app.exec_())
+
