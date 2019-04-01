@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64051461-6509-41bf-ac7e-02ed12c39edd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DOAStest2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DOAStest2.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ah1.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ah2.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ah3.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ah4.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ah5.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ah6.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ah7.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ah8.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ah9.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DOAStest1.py" beforeDir="false" afterPath="$PROJECT_DIR$/DOAStest1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,11 +36,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DOAStest2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-180">
+            <state relative-caret-position="-166">
               <caret line="264" column="25" selection-start-line="264" selection-start-column="25" selection-end-line="264" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="93">
+                <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -119,6 +119,7 @@
         <option value="$PROJECT_DIR$/DOAS.py" />
         <option value="$PROJECT_DIR$/DOAStest1.py" />
         <option value="$PROJECT_DIR$/DOAStest2.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -305,23 +306,23 @@
       <workItem from="1553796973314" duration="515000" />
       <workItem from="1554067664365" duration="189000" />
       <workItem from="1554067920399" duration="91000" />
-      <workItem from="1554068136043" duration="5558000" />
+      <workItem from="1554068136043" duration="5723000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14454000" />
+    <option name="totallyTimeSpent" value="14619000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-1" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27132195" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27132195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3296582" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3296582" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -393,8 +394,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DOAStest2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180">
+        <state relative-caret-position="-166">
           <caret line="264" column="25" selection-start-line="264" selection-start-column="25" selection-end-line="264" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="93">
+            <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
